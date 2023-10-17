@@ -605,7 +605,7 @@ def download_file():
     elif database_select == "neo4j":
         database_log_path = neo4j_log_path
     # 写死的暂时
-    webserver_log_path = "/var/log/nginx/access.log.1"
+    webserver_log_path = "/var/log/nginx/access.log"
     # zip command will zip 2 or 3 log into mysql.zip, filename = mysql
     if system_log_checkbox_checked == 'true':
         subprocess.run("zip -j -9r %s %s %s %s" % (zipped_file_path, sysdig_output, database_log_path, webserver_log_path), shell=True)
