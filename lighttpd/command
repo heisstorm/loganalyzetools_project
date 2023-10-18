@@ -1,0 +1,6 @@
+sudo lighttpd-enable-mod proxy
+service lighttpd force-reload
+sudo systemctl restart lighttpd
+sudo ln -s /etc/lighttpd/conf-available/10-proxy.conf /etc/lighttpd/conf-enabled/
+sudo systemctl restart lighttpd
+
