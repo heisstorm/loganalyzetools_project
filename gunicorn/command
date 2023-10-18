@@ -1,0 +1,1 @@
+sudo gunicorn -w 4 -b 0.0.0.0:5005 --log-level debug --access-logfile access.log sysdig_app_log:app

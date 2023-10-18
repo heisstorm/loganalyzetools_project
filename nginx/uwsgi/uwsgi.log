@@ -8185,3 +8185,7 @@ psycopg2.errors.UndefinedTable: table "table1" does not exist
   adding: redis-server.log (deflated 95%)
   adding: access.log (deflated 98%)
 [pid: 1873666|app: 0|req: 592/592] 10.155.236.235 () {44 vars in 878 bytes} [Tue Oct 17 15:45:29 2023] GET /download_logs?database_select=redis&system_log_checkbox_checked=true => generated 5086932 bytes in 1114 msecs via sendfile() (HTTP/1.1 200) 7 headers in 283 bytes (1 switches on core 0)
+[pid: 1873666|app: 0|req: 593/593] 172.31.34.5 () {42 vars in 750 bytes} [Wed Oct 18 01:16:56 2023] GET / => generated 36666 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 1)
+[pid: 1873666|app: 0|req: 594/594] 172.31.34.5 () {40 vars in 719 bytes} [Wed Oct 18 03:55:14 2023] GET / => generated 36666 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
+[pid: 1873666|app: 0|req: 595/595] 172.31.34.5 () {40 vars in 677 bytes} [Wed Oct 18 03:55:14 2023] GET /favicon.ico => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 1)
+[pid: 1873666|app: 0|req: 596/596] 172.31.34.5 () {42 vars in 750 bytes} [Wed Oct 18 03:59:31 2023] GET / => generated 36666 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 82 bytes (1 switches on core 0)
